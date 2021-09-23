@@ -1,0 +1,2 @@
+model_checkpoint_path: "09-21-2021_122601_ellipsoid_rot-4-2-1_target-dim-5.ckpt"
+all_model_checkpoint_paths: "09-21-2021_122601_ellipsoid_rot-4-2-1_target-dim-5.ckpt"

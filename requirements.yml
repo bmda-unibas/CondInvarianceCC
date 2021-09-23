@@ -1,0 +1,8 @@
+name: CondInvCC
+channels:
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.6.12
+  - matplotlib=3.3.2
+  - tensorflow-gpu=1.14
