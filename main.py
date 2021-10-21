@@ -346,12 +346,8 @@ def model(mode = "train", num_runs = 1, num_samples = 2000, batch_size = 256, ex
                         z0dim = variance_test_out[0:pz_y]
                         z1dim = variance_test_out[pz_y:]
 
-                        # print("Iteration: {:d},\tX MAE: {:.4f},\tY MAE: {:.4f},\tLatent loss: {:.4f},\tCycle loss: {}".format(
-                        #     iter, x_mae_test_out, y_mae_test_out, latent_loss_test_out, cycle_loss_test_out)
-                        # )
-
-                        print("Iteration: {:d},\tX MAE: {:.4f},\tY MAE: {:.4f},\tLatent loss: {:.4f},\tCycle loss: {}, Selected Z0 dim.s: {:d}, Selected Z1 dim.s: {:d}".format(
-                            iter, x_mae_test_out, y_mae_test_out, latent_loss_test_out, cycle_loss_test_out, z0dim[(z0dim > 1)].size, z1dim[(z1dim > 1)].size)
+                        print("Iteration: {:d},\tX MAE: {:.4f},\tY MAE: {:.4f},\tLatent loss: {:.4f},\tCycle loss: {}".format(
+                            iter, x_mae_test_out, y_mae_test_out, latent_loss_test_out, cycle_loss_test_out)
                         )
 
                         # Increase Lagrange multiplier

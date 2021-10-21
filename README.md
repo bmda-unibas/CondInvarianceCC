@@ -1,5 +1,7 @@
 # Learning Conditional Invariance through Cycle Consistency
-This repository provides a basic implementation of the proposed model in our GCPR 2021 paper "Learning Conditional Invariance through Cycle Consistency".
+This repository provides a basic TensorFlow 1 implementation of the proposed model in our GCPR 2021 paper "Learning Conditional Invariance through Cycle Consistency".
+
+Check out [our talk given at GCPR 2021](https://www.youtube.com/watch?v=wdbSLlmBTBI) (on Youtube) for an overview of the paper!
 
 ![Modell illustration](images/model_illustration.png "U-Net for Soil Erosion Segmentation")
 
